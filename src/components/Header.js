@@ -1,8 +1,12 @@
 import React from 'react'
-import logo from '../../img/logo.png'
+import logo from '../../img/logo.png' //can  import since react uses webpack
+
 const Header = () => {
   return (
-    <div>Header</div>
+    <header className='center'>  
+    <img src= {logo} alt='' />
+ 
+    </header>
   )
 }
 
