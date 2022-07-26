@@ -1,5 +1,6 @@
 import React from 'react'
-import logo from '../../img/logo.png' //can  import since react uses webpack
+import logo from '../img/logo.png' //can  import since react uses webpack
+//making the header a flex box centering everything
 
 const Header = () => {
   return (
